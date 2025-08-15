@@ -1,0 +1,25 @@
+#image {
+  height: 300px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.thumbs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.preview {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+}
